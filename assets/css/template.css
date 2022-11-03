@@ -1,0 +1,176 @@
+/**
+ * General Formats
+ */
+
+body{
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+}
+
+
+ul,h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+  padding: 0px;
+}
+
+a{ 
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.table{
+  display: table;
+  height: 100%;
+}
+
+.table-cell{
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+
+
+.button{
+  font-size: 14px;
+  color: #fff;
+  background: #ce1212;
+  padding: 8px 20px;
+}
+
+#container{
+  /*background: red;*/
+}
+
+.section{
+  height: 350px;
+}
+
+.left{
+  width: 50%;
+  float: left;
+  background: orange;
+  height: 100%;
+}
+
+
+.right{
+  width: 50%;
+  float: right;
+  background: yellow;
+  height: 100%;
+}
+
+.col-25{
+  width: 25%;
+  display: inline-block;
+  
+}
+
+.col-50{
+  width: 50%;
+  display: inline-block;
+
+}
+
+
+/**
+=============================
+ * Desktop styles
+ */
+
+
+
+/**
+ * Homepage
+ */
+header{
+  height: 90px;
+}
+
+header .row{
+  height: 100%;
+}
+
+header .col{
+  height: 100%;
+  float: left;
+}
+
+#menu li{
+  display: inline-block;
+  position: relative;
+}
+
+#menu li a{
+  padding: 10px;
+  color: #7f7f90;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #7f7f90;
+}
+
+#menu li a::before{
+    content: "";
+    height: 2px;
+    background: red;
+    width: 0px; 
+    margin-top: 20px;
+    position: absolute;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+#menu li:hover a::before{
+    width: 75%;
+    
+}
+
+header .button{
+  font-size: 14px;
+  color: #fff;
+  background: #ce1212;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+header .table{
+  width: 100%;
+}
+
+header .table-cell{
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+
+
+
+.outerbox{
+  width: 300px;
+  height: 300px;
+  background: orange;
+}
+
+.innerbox{
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+div.circle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: purple;
+}
+
+div.circle .cross{
+  color: white;
+}

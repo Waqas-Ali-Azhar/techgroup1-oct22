@@ -1,0 +1,158 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+}
+h1,h2,h3,h4,h5,h6,p,div,span,textarea,input,label{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: black;
+}
+
+p{
+  margin: 0px;
+}
+
+#cv{
+  width: 66%;
+  border: 1px solid white;
+  margin: 0 auto;
+  background: white;
+  padding: 10px 20px;
+}
+
+
+.box{
+  padding: 22px 0px;
+  border-bottom: 1px solid yellow;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 100%;
+}
+
+.left{
+  width: 49%;
+  
+  display: inline-block;
+  
+  float: left;
+}
+
+.right{
+  width: 49%;
+  
+  display: inline-block;
+  
+  float: left;
+}
+
+.col-30{
+
+  width: 29%;
+  border: 1px solid red;
+  display: inline-block;
+  height: 100px;
+}
+
+.col-70{
+  width: 69%;
+  border: 1px solid red;
+ display: inline-block;
+ height: 100px;
+}
+
+
+#personal .image-wrapper{
+  width: 200px;
+  height: 200px;
+}
+
+#personal .image-wrapper .img{
+  width: 100%;
+  /*height: auto;*/
+}
+
+
+.card-box label{
+  font-weight: 700;
+}
+
+.card-box .col-30{
+
+  width: 29%;
+  border: 1px solid red;
+  display: inline-block;
+  height: auto;
+  border: none;
+  float: left;
+}
+
+.card-box .col-70{
+  width: 69%;
+  display: inline-block;
+  height: auto;
+  border:  none;
+  float: left;
+}
+
+.card-box span{
+  display: block;
+}
+
+
+
+#personal .left{
+  width: 75%;
+  height: 170px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#personal .right{
+  width: 25%;
+  height: 170px;
+}
+
+#personal h1{
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+#personal .email{
+  font-weight: 300;
+}
+
+
+
+/**
+ * Contact Section
+ */
+
+#contact .left p{
+  font-weight: 300;
+}
+
+#contact .left span{
+  font-weight: 300;
+}
+
+
+#contact .right span{
+  font-weight: 300;
+}
+
+
+#contact .right .card-box:nth-child(1) .col-30{
+   width: 20%;
+}
+
+#contact .right .card-box:nth-child(1) .col-70{
+   width: 80%;
+}
+
+#contact .right .card-box:nth-child(2) .col-30 label{
+ margin-left: 25px;
+
+  
+}
